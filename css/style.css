@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: darkblue;
+  background-color: #87ceeb;
+  font-family: georgia, serif, sans-serif;
+}
+
+/* MOBILE */
+@media (max-width:767px) {
+  body{
+  background-color: #96DED1;
+  }
+}
+
+h1 {
+  text-align: center;
+  padding: 10px;
+  font-family: 'Lobster';
+  font-size: 3em;
+}
+
+#header_image {
+  /*box-sizing: content-box;*/
+  width: 30vw;
+  border: solid darkblue 4px;
+  filter: drop-shadow(16px 16px 16px darkblue);
+  animation: movedown 3s ease-out;
+}
+
+/* MOBILE */
+@media (max-width:767px) {
+  #header_image {
+    width: 50vw;
+  }
+}
+
+@keyframes movedown {
+  from {
+    opacity:0;
+    transform: scale(1.2) translateY(-100px);
+  }
+
+  to {
+    opacity:1.2;
+    transform: scale(1) translateY(0);
+  }
+}
+
+nav {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+}
+
+/* MOBILE */
+@media (max-width:767px) {
+  nav {
+    flex-direction: column;
+  }
+}
+
+p {
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+table {
+  border: 2px solid darkblue;
+  border-radius: 0px;
+  padding: 20px;
+}
+
+/* MOBILE */
+@media (max-width:767px) {
+  table{
+    width: 70vw;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+footer {
+  background-color: #ffff66;
+}
+
+a {
+  color: darkblue;
+}
+
+#celeste {
+  background-color: #fc6c85;
+}
+
+#ahit {
+  background-color: #9f00ff;
+}
+
+#worms {
+  background-color: #FFD700;
+}
+
+.games_image {
+  box-sizing: content-box;
+  width: 28vw;
+  border: solid darkblue 5px;
+  margin: 0 auto;
+  margin-top:5px;
+}
+
+.games_image_gamescreens {
+  box-sizing: content-box;
+  width: 28vw;
+  height: 15vw;
+  border: solid darkblue 5px;
+  margin: 0 auto;
+  margin-top:40px;
+}
+
+/* MOBILE */
+@media (max-width:767px) {
+  .games_image {
+    box-sizing: content-box;
+    width: 80%;
+    border: solid darkblue 5px;
+  }
+}
+
+li {
+  color: black;
+  font-size: 1.2em;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* MOBILE */
+@media (max-width:767px) {
+  li {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+#contact_container {
+  background-color: white;
+  width: 50vw;
+
+  margin-top: 30px;
+  padding: 20px;
+}
+
+/* MOBILE */
+@media (max-width:767px) {
+  #contact_container {
+    width: 90%;
+  }
+}
+
+form {
+  display:flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.contact_antwoord {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  font-size: 2em;
+  text-align: center;
+}
+
+/* MOBILE */
+@media (max-width:767px) {
+  .contact_antwoord {
+    display:flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+}
+
+#bedankt_text {
+  font-size: 2em;
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* MOBILE */
+@media (max-width:767px) {
+  #bedankt_text {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.image-side {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+#prgbody1 {
+  background-color: #ffe2da;
+}
+
+#prgbody2 {
+  background-color: #ffffd6;
+}
+
+#prgbody3 {
+  background-color: #b0ffef;
+}
+
+#prgbody4 {
+  background-color: #ffbeca;
+}
+
+#prgbody5 {
+  background-color: #ff355e;
+}
+
+#prgbody6 {
+  background-color: #ff355e;
+}
+
+#prgbody7 {
+  background-color: #ff355e;
+}
+
+#projectbody3 {
+  background-color: #ff355e;
+}
+
+#projectbody {
+  background-color: #66ff66;
+}
+
+#projectbody2 {
+  background-color: #9678b6;
+}
+
+#projectbody3 {
+  background-color: #ff355e;
+}
+
