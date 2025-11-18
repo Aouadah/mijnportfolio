@@ -27,7 +27,7 @@ h1 {
   /*box-sizing: content-box;*/
   width: 30vw;
   border: solid darkblue 4px;
-  filter: drop-shadow(16px 16px 16px darkblue);
+  filter: drop-shadow(6px 6px 6px darkblue);
   animation: movedown 3s ease-out;
 }
 
