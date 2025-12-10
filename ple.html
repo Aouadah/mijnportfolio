@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <title>TaalSteun - Schoolproject</title>
+</head>
+<body class="bg-blue-50">
+
+<nav class="bg-blue-500 flex items-center justify-between px-6 py-3">
+  <div class="text-white text-xl font-bold">
+    <a href="index.html" class="text-white">Aissa</a>
+  </div>
+  <div class="space-x-6">
+    <a href="index.html" class="text-white hover:underline">Home</a>
+    <a href="vaardigheden.html" class="text-white hover:underline">Vaardigheden</a>
+    <a href="projects.html" class="text-white hover:underline">Schoolprojecten</a>
+  </div>
+</nav>
+<br>
+
+<header class="text-center p-2 text-blue-800">
+  <h1 class="text-5xl font-bold">TaalSteun</h1>
+</header>
+
+<main>
+  <div class="flex flex-col">
+
+    <div class="mb-8 bg-white w-auto p-8 rounded-2xl shadow-xl border border-blue-100 container mx-auto w-5/6 text-sm">
+      <p>
+        In het begin van het project moest ik kiezen wie mijn doelgroep was en wat ik wilde maken. Ik koos 
+        laaggeletterden als mijn doelgroep, omdat die groep het meest interessant klonk om iets voor te maken. 
+        Ik wilde een site maken die laaggeletterden helpt met grammatica. Ik deed onderzoek naar laaggeletterdheid 
+        en ontdekte dat veel laaggeletterde volwassenen moeite hebben met het schrijven van teksten. Als zij 
+        kinderen krijgen, is de kans groot dat hun kinderen ook laaggeletterd worden. Hierdoor ontstaat een 
+        vicieuze cirkel die ik wilde doorbreken.
+      </p>
+      <p>
+        De site die ik wilde maken heet TaalSteun. TaalSteun helpt laaggeletterde volwassenen met het verbeteren 
+        van hun grammatica. Gebruikers kunnen opdrachten en toetsen maken en kiezen uit verschillende moeilijkheidsniveaus. 
+        Door toetsen te maken, verdienen ze punten die ze kunnen gebruiken om spullen te kopen in de virtuele winkel 
+        en hun virtuele kamer te versieren. De site heeft een speelse lay-out om gebruikers gemotiveerd te houden.
+      </p>
+      <div class="flex flex-wrap justify-normal">
+        <div class="w-7/12 mx-auto border-4 border-blue-800 m-4">
+          <img src="img/ple/logo white.png" alt="splittervoorbeeld" loading="lazy">
+        </div>
+      </div>
+    </div>
+
+    <div class="mb-8 bg-white w-auto p-8 rounded-2xl shadow-xl border border-blue-100 container mx-auto w-5/6 text-sm">
+      <p>
+        Ik gebruikte de Design Sprint methode om na te denken over de navigatie van de site. Daarna maakte ik acht 
+        verschillende schetsen. Hierna maakte ik twee concepten: het linker concept toont een scherm waarin de gebruiker 
+        opdrachten moet maken, het rechter concept toont een kamer met de spullen die gekocht zijn met de punten.
+      </p>
+      <div class="flex flex-row justify-normal">
+        <div class="w-5/12 mx-auto border-4 border-blue-800">
+          <img src="img/ple/concept1.png" alt="bravis1" loading="lazy">
+        </div>
+        <div class="w-5/12 mx-auto border-4 border-blue-800">
+          <img src="img/ple/concept2.png" alt="bravis2" loading="lazy">
+        </div>
+      </div>
+    </div>
+
+    <div class="mb-8 bg-white w-auto p-8 rounded-2xl shadow-xl border border-blue-100 container mx-auto w-5/6 text-sm">
+      <p>
+        Daarna maakte ik ontwerpen in Figma, waarbij ik nadacht over de benodigde pagina's en hun lay-out. Ik deed ook 
+        een usability test om te onderzoeken of mijn ontwerpen verbeterd konden worden en welke kleuren geschikt 
+        waren voor de lay-out.
+      </p>
+      <div class="flex flex-row justify-normal">
+        <div class="w-5/12 mx-auto border-4 border-blue-800">
+          <img src="img/ple/taalsteunfigma.png" alt="bravis1" loading="lazy">
+        </div>
+        <div class="w-5/12 mx-auto border-4 border-blue-800">
+          <img src="img/ple/taalsteunfigma2.png" alt="bravis2" loading="lazy">
+        </div>
+      </div>
+    </div>
+
+    <div class="mb-8 bg-white w-auto p-8 rounded-2xl shadow-xl border border-blue-100 container mx-auto w-5/6 text-sm">
+      <p>
+        Na het testen en aanpassen van de ontwerpen, begon ik met WordPress om TaalSteun te bouwen. Ik probeerde eerst 
+        de lay-out van mijn ontwerpen na te maken, voegde vervolgens opdrachten toe, en werkte daarna aan het 
+        puntensysteem met de MyCred plugin. De virtuele winkel programmeerde ik zelf zodat spullen gekocht konden 
+        worden met punten. 
+        Daarna ging ik de virtuele kamer maken, en dit was het moeilijkste onderdeel om te programmeren in TaalSteun. De 
+        virtuele kamer programmeerde ik helemaal zelf, dus zonder de hulp van de plug-ins van WordPress. De gekochte spullen 
+        moesten opgeslagen worden in de database. Er moesten ook meerdere items op het scherm zijn en van hetzelfde object 
+        mocht slechts één in de kamer geplaatst worden.
+      </p>
+      <p>
+        Gelukkig had ik voor het maken van de virtuele kamer een slimme truc bedacht. De kamer, samen met het bed, de kast en 
+        de tafel, zijn één afbeelding. De gekochte spullen zijn allemaal losse afbeeldingen die in de kamer worden geplaatst. Die
+        afbeeldingen zijn net zo groot als de hoofdafbeeldingen en zijn ook grotendeels transparant, zodat ook de andere
+        objecten zichtbaar zijn.
+      </p>
+      <div class="flex flex-wrap justify-normal">
+        <div class="w-5/12 mx-auto border-4 border-blue-800">
+          <img src="img/ple/taalsteunkamer.png" alt="bravis1" loading="lazy">
+        </div>
+        <div class="w-5/12 mx-auto border-4 border-blue-800">
+          <img src="img/ple/taalsteunkamer2.png" alt="bravis2" loading="lazy">
+        </div>
+      </div>
+    </div>
+
+    <div class="mb-8 bg-white w-auto p-8 rounded-2xl shadow-xl border border-blue-100 container mx-auto w-5/6 text-sm">
+      <p>
+        Dit was het laatste grote obstakel in mijn weg. Ik kon hierna verder gaan met de opdrachten en toetsen programmeren
+        in TaalSteun. Een tijdje later was TaalSteun af en kon ik het hosten op Bluehost. Als u nieuwsgierig bent naar
+        het eindresultaat, dan kunt u op
+        <a href="https://cmgt.hr.nl/projecten/TaalSteun" class="text-blue-500 underline">deze link</a>
+        klikken om de video over TaalSteun te bekijken.
+      </p>
+      <div class="flex flex-row justify-normal">
+        <div class="w-7/12 mx-auto border-4 border-blue-800 m-4">
+          <img src="img/ple/taalsteun.png" alt="splittervoorbeeld" loading="lazy">
+        </div>
+      </div>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+</body>
+</html>
+
+
+
+
+
+
